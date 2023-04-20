@@ -13,7 +13,7 @@ body{
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
-    padding: 10px
+   
     
 }
 #container{
@@ -52,7 +52,7 @@ margin: auto;
     flex-basis: 100%;
    text-decoration: underline;
    color: hsl(245, 75%, 52%);
-    font-weight: 500;
+    font-weight: 1.5em;
 
 }
 
@@ -97,10 +97,12 @@ margin: auto;
 
 
 @media screen and (min-width: 375px){
+body{
     background-image: url(images/pattern-background-mobile.svg);
     background-size: 100%;
     max-width: 100%;
     min-height: 100vh;
+}
 }
 
 a{
