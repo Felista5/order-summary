@@ -96,10 +96,9 @@ margin: auto;
 
 
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 375px) and (max-width){
 body{
     background-image: url(images/pattern-background-mobile.svg);
-    background-size: 100%;
     max-width: 100%;
     min-height: 100vh;
 }
