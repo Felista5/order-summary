@@ -42,7 +42,7 @@ margin: auto;
 
 .text{
     padding-left: 40px;
-    line-height: 0.5;
+    line-height: 0.7;
 }
 
 .icon-music{
@@ -132,6 +132,7 @@ a{
         left: 0;
         bottom: 0;
         margin: auto;
+        position: absolute;
 }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
