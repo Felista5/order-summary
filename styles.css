@@ -1,4 +1,4 @@
-<style>
+
 *{
     box-sizing: border-box;
 }
@@ -131,8 +131,10 @@ a{
     .attribution { font-size: 15px;
         text-align: center;
         bottom: 0;
+        align-items: center;
+        justify-content: center;
         margin: auto;
-        position: absolute;
+        position: fixed;
 }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
