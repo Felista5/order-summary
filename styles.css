@@ -96,9 +96,11 @@ margin: auto;
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     background-image: url(images/pattern-background-mobile.svg);
     background-size: 100%;
+    max-width: 100%;
+    min-height: 100vh;
 }
 
 a{
