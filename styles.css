@@ -52,6 +52,7 @@ margin: auto;
     flex-basis: 100%;
    text-decoration: underline;
    color: hsl(245, 75%, 52%);
+    font-weight: 500;
 
 }
 
